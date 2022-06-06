@@ -52,7 +52,8 @@
  </p>
 
 
-<body data-new-gr-c-s-loaded="14.1062.0">
+
+<html><head></head><body data-new-gr-c-s-loaded="14.1062.0">
     <link rel="stylesheet" href="https://static-exp2.licdn.com/sc/h/bvct6szbjq1lhkmq97l688bk8">
     
     
@@ -106,7 +107,26 @@
       </a>
 <!---->    </div>
   
-  </body>
+  </body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!-- 
 
 <h1 align="center">Hi 👋, I'm Gal Jacobson</h1>
