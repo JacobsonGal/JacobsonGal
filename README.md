@@ -51,12 +51,6 @@
 <a href="https://www.instagram.com/jacobsongal"><img src="https://img.shields.io/badge/-Instgram-E4405F?style=flat&logo=Instagram&logoColor=white"/></a>
  </p>
 
-<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="large" data-theme="dark" data-type="HORIZONTAL" data-vanity="jacobsongal" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://il.linkedin.com/in/jacobsongal?trk=profile-badge">Gal Jacobson</a></div>
-              
-
-
-
-
 
 
 
