@@ -6,7 +6,7 @@
 
 💡 &nbsp;I like to explore new technologies and develop software solutions and quick hacks.\
 🖥 &nbsp;I'm currently working as a full stack engineer at [Houzz](https://www.houzz.com/).\
-🎓 &nbsp;I'm currently persuing a Master degree in Bussiness Administration and Entrepreneurship at the [College of Management Academic Studis](https://moodle.colman.ac.il/my/).\
+🎓 &nbsp;I'm currently persuing an MBA & Entrepreneurship at the [College of Management Academic Studis](https://moodle.colman.ac.il/my/).\
 🌱 &nbsp;In my free time, I ❤️ riding my 🏍 and play  🎸 | 🥁 | 🎹 as hobbies/side hustles.\
 
 <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
