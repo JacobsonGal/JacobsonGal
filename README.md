@@ -26,6 +26,7 @@ Here are some ideas to get you started:
 
 <p><img align="right" src="https://github.com/Adam-pw/Adam-pw/blob/main/animation_500_kxa883sd.gif" alt="adam-pw" /></p>
 
+<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="jacobsongal" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://il.linkedin.com/in/jacobsongal?trk=profile-badge">Gal Jacobson</a></div>
 
 - 🌱 I’m currently learning Web Development and other programming languages
 
