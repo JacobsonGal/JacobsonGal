@@ -1,9 +1,9 @@
 <h1 align="center">Hi 👋, I'm Gal Jacobson</h1>
 <h3 align="center">Software Engineer @ Houzz </h3>
 
- <img src="https://media3.giphy.com/media/aUovxH8Vf9qDu/giphy.gif
-"/>
-
+<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="jacobsongal" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://il.linkedin.com/in/jacobsongal?trk=profile-badge">Gal Jacobson</a></div>
+              
 <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
 ### 👨🏻‍💻 &nbsp;About Me
 
