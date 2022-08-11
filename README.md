@@ -36,8 +36,8 @@
 
 <p align="center">
 <a href="https://github.com/JacobsonGal?tab=repositories">
-  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=AVS1508&show_icons=true&theme=algolia&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=AVS1508&layout=compact&langs_count=8&theme=algolia"/>
+  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=JacobsonGal&show_icons=true&theme=algolia&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=JacobsonGal&layout=compact&langs_count=8&theme=algolia"/>
 </a>
 </p>
 
@@ -61,6 +61,7 @@
 
 
 <!--
+AVS1508
 
 <h1 align="center">Hi 👋, I'm Gal Jacobson</h1>
 <h3 align="center">Software Engineer @ Houzz </h3>
