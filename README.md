@@ -60,7 +60,7 @@
 
 
 
-
+<!--
 
 <h1 align="center">Hi 👋, I'm Gal Jacobson</h1>
 <h3 align="center">Software Engineer @ Houzz </h3>
@@ -170,3 +170,4 @@
 
 [Adam-pw](https://github.com/Adam-pw)
 
+--!>
