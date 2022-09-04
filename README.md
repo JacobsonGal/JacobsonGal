@@ -45,6 +45,7 @@
 ### 🤝🏻 &nbsp;Connect with Me
 
 <p align="center">
+Follow me on LinkedIn: www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=jacobsongal
 <a href="https://www.linkedin.com/in/jacobsongal/"><img src="https://img.shields.io/badge/-Linkedin-0077B5?style=flat&logo=Linkedin&logoColor=white"/></a>
 <a href="mailto:jacobsongal@gmail.com"><img src="https://img.shields.io/badge/-Mail-D14836?style=flat&logo=Gmail&logoColor=white"/></a>
 <a href="https://www.facebook.com/JacobsonGal"><img src="https://img.shields.io/badge/-Facebook-1877F2?style=flat&logo=Facebook&logoColor=white"/></a>
