@@ -60,7 +60,6 @@
 
 
 
-<!--
 AVS1508
 
 <h1 align="center">Hi 👋, I'm Gal Jacobson</h1>
@@ -171,4 +170,3 @@ AVS1508
 
 [Adam-pw](https://github.com/Adam-pw)
 
---!>
