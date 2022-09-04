@@ -42,7 +42,7 @@
 </p>
 <p align="center">
   <a href="https://github.com/JacobsonGal?tab=repositories">
-    <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=JacobsonGal&theme=algolia&background=050F3C&date_format=M%20j%5B%2C%20Y%5D"/>
+    <img width="2000px" height="315px" src="https://github-readme-streak-stats.herokuapp.com/?user=JacobsonGal&theme=algolia&background=050F3C&date_format=M%20j%5B%2C%20Y%5D"/>
 </a>
 </p>
   
