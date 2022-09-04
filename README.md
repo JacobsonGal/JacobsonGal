@@ -36,11 +36,11 @@
 
 <p align="center">
   <a href="https://github.com/JacobsonGal?tab=repositories">
-    <img width="300em" height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?  username=JacobsonGal&show_icons=true&theme=algolia&include_all_commits=true&count_private=true&show_icons=true"/>
+    <img width="300em" height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=JacobsonGal&show_icons=true&theme=algolia&include_all_commits=true&count_private=true&show_icons=true"/>
 
-      <img width="300em" height="180em" src="https://github-readme-streak-stats.herokuapp.com/? user=JacobsonGal&theme=algolia&background=050F3C&date_format=M%20j%5B%2C%20Y%5D"/>
+      <img width="300em" height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=JacobsonGal&theme=algolia&background=050F3C&date_format=M%20j%5B%2C%20Y%5D"/>
 
-    <img width="300em" height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/? username=JacobsonGal&layout=compact&show_icons=true&langs_count=8&theme=algolia"/>
+    <img width="300em" height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=JacobsonGal&layout=compact&show_icons=true&langs_count=8&theme=algolia"/>
   </a>
 </p>
 
