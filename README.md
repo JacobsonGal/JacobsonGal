@@ -36,6 +36,7 @@
 
 <p align="center">
 <a href="https://github.com/JacobsonGal?tab=repositories">
+  <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=JacobsonGal&theme=dark&background=0d1117&date_format=M%20j%5B%2C%20Y%5D" />
   <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=JacobsonGal&show_icons=true&theme=algolia&include_all_commits=true&count_private=true&show_icons=true"/>
   <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=JacobsonGal&layout=compact&show_icons=true&langs_count=8&theme=algolia"/>
 </a>
@@ -60,6 +61,7 @@
 
 
 
+<!--
 AVS1508
 
 <h1 align="center">Hi 👋, I'm Gal Jacobson</h1>
@@ -170,3 +172,4 @@ AVS1508
 
 [Adam-pw](https://github.com/Adam-pw)
 
+--!>
