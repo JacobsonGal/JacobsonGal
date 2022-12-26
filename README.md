@@ -6,7 +6,7 @@
 
 🖥 &nbsp;Currently working as a full stack engineer at [Houzz Pro](https://pro.houzz.com/).\
 🎓 &nbsp;Currently persuing an MBA & Entrepreneurship at the [College of Management Academic Studis](https://moodle.colman.ac.il/my/).\
-🌐 &nbsp;Love to explore new technologies and develop software solutions and quick hacks.\
+🌐 &nbsp;Love to explore new technologies and develop software solutions and quick hacks.
 
 <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
 <img alt="Night Coding" src="https://raw.githubusercontent.com/AVS1508/AVS1508/master/assets/Night-Coding.gif" align="right"/>
