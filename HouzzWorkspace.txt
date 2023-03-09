@@ -1,0 +1,739 @@
+{
+  /* 
+	# **************************** JACOBSON WORKSPACE SETTINGS ****************************
+		! ***** MY HOUZZ COMPANY ID : 1219194  ***** 
+		! ***** VERIFIED COMPANY IDS : Nir:855812, 228241, 1281583, 991321, 1972415  ***** 
+		! ***** Env On Demand : https://members-galjhouzz.k8s-saas-dev.staging.houzz.net/manage/d/estimates  ***** 
+
+
+		? ***** HOUZZ AUTH ***** 
+			? ** NEW ** 
+			?   user: houzz_new
+			?   pass: UPqZIhWDaX22
+			
+			? ** OLD ** 
+			?   user: houzz
+			?   pass: Tah03cab1n
+		
+
+		^ ***** SSH ***** 
+		^ ssh-keygen -t ed25519 -C "jacobsongal@gmail.com"
+		^ jacobsonssh - passsepher
+		
+		* ***** USEFUL STRINGS  ***** 
+		* 1. git clone --recurse-submodules git@github.com:Ivymark/ivy-.git
+		* 2. sudo lsof -t -i tcp:3333 | xargs kill -9
+		* 3. export github_access_token=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
+		* 4. docker pull 754384638740.dkr.ecr.us-west-2.amazonaws.com/ivy-documents:latest 
+		* 5. Graphana: { app=“ivy-services-documents”,namespace=“stghouzz”} |= “sendHouzzProWebSocketEvent” || {job=~"stghouzz/ivy-services.*"} |= `estimateMail` || {job="stghouzz/ivy-worker-email"} |= ``
+
+		* 6. QA mail: UserName: qa.tlv@houzz.com, password: ofirVD1995!
+		* 7. Unleash: UserName: prod, password: pr0dqw12o!
+		* 8. GitHub filter: is:open is:pr author:JacobsonGal archived:false draft:false 
+		* 9. k9s connect: k9s -n galjhouzz
+		* 10. openAIKey: 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
+		* 11. datadogAPIkey: api_key: a7e01b0e5b0e24b1c8021eee591855c9 in /opt/datadog-agent/etc/datadog.yaml.
+*/
+  "folders": [
+    // 📑 🔱💠🔆〽️💢♻️🧰🛠️⚙️💡💻🖥️♾️♻️🔰🚄⚓📱
+    {
+      "name": "💠 Services",
+      "path": "ivy-services"
+    },
+    {
+      "name": "📊 Graph",
+      "path": "ivy-graph-jukwaa"
+    },
+    {
+      "name": "〽️ Email",
+      "path": "ivy-email-editor"
+    },
+    // {
+    // 	"name": "🌐 Thrift",
+    // 	"path": "ivy-services/ivy-thrift"
+    // },
+    {
+      "name": "💢 Infra",
+      "path": "ivy-dev-infra"
+    },
+    {
+      "name": "🖥️ Core",
+      "path": "ivy-core"
+    },
+    // {
+    //     "name": "🧰 HP",
+    //   "path": "hp-shared-components"
+    // },
+    // {
+    //   "name": "♻️ JI",
+    // 	"path": "ivy-ji"
+    // },
+    // {
+    // 	"name": "🔰 Projects",
+    // 	"path": "ivy-projects"
+    // },
+    // {
+    // 	"name": "🚄 Rails",
+    // 	"path": "Ivy-rails"
+    // },
+    // {
+    //   "name": "⚓ Utils",
+    //   "path": "ivy-utils"
+    // }
+    // {
+    // 	"name": "💢 Routing",
+    // 	"path": "routing-atlas"
+    // },
+    // {
+    // 	"name": "📱 Calculations",
+    // 	"path": "currency-calculations"
+    // },
+    // {
+    // 	"name": "〽️ CRM",
+    // 	"path": "ivy-crm"
+    // },
+    // {
+    //   "name": "⚙️Jukwaa-Core",
+    //   "path": "jukwaa-core"
+    // },
+    {
+      "name": "🔰 Shared",
+      "path": "ivy-shared-components"
+    },
+    {
+      "name": "🔱 Documents",
+      "path": "ivy-documents"
+    },
+  ],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "💠 Services",
+    "githubPullRequests.ignoredPullRequestBranches": ["master"],
+    "monorepoWorkspace.folders.custom": [],
+    "workspace.isHidden": true,
+    
+    "files.exclude": {
+      "/Users/jacobsonhouzz/Houzz/HouzzWorkSpace/ivy-shared-components": true,
+      "/Users/jacobsonhouzz/Houzz/HouzzWorkSpace/ivy-documents": true
+    },
+
+    //  ************** Editor **************
+    "window.commandCenter": true,
+    "editor.formatOnSave": false,
+    "editor.fontSize": 13,
+    "editor.fontFamily": "Dank Mono, Operator Mono, Fira Code, Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "editor.wordWrap": "off",
+    "editor.wrappingIndent": "same",
+    "editor.wordWrapColumn": 300,
+    "editor.snippetSuggestions": "inline",
+    "editor.accessibilitySupport": "off",
+    "editor.codeActionsOnSave": {
+      "source.fixAll": false
+    },
+    "browserSync.config": {
+      "files": ["*.html"]
+    },
+    "cSpell.words": [
+      "activesection",
+      "automations",
+      "clamdscan",
+      "clamscan",
+      "consts",
+      "Freemium",
+      "jukwaa",
+      "Omnilog",
+      "testid",
+      "Toggable"
+    ],
+ 
+
+    //  ************** Styles **************
+
+    "formattingToggle.affects": ["eslint.enable"],
+    "editor.tokenColorCustomizations": {
+      "[GitHub Dark Dimmed]": {
+        "textMateRules": [
+          {
+            "scope": "constant.language",
+            "settings": {
+              // "foreground": "#29d23c",
+            }
+          }
+        ]
+      }
+    },
+
+    //  ************** ESlint **************
+    "eslint.enable": true,
+    "eslint.validate": ["javascript"],
+    "eslint.rules.customizations": [{ "no-console": "off" }],
+
+    //  ************** Javascript **************
+    "javascript.format.enable": false,
+    "javascript.validate.enable": false,
+    "js/ts.implicitProjectConfig.experimentalDecorators": true,
+    "[javascript]": {
+      "editor.formatOnSave": false
+    },
+
+    //  ************** APIs **************
+    "circleci-vscode.customBranches": [],
+    "circleci-vscode.autoLoadWorkflowJobs": true,
+    "circleci-vscode.workflowReloadInterval": 60,
+    "circleci-vscode.apiToken": "570bf9109760e0b24eacceddd225f1d0661c3671",
+
+    //  ************** Extensions **************
+    "better-comments.tags": [
+      {
+        "tag": "!",
+        "color": "#FF2D00",
+        "strikethrough": false,
+        "underline": false,
+        "backgroundColor": "transparent",
+        "bold": true,
+        "italic": false
+      },
+      {
+        "tag": "?",
+        "color": "#3498DB",
+        "strikethrough": false,
+        "underline": false,
+        "backgroundColor": "transparent",
+        "bold": false,
+        "italic": false
+      },
+      {
+        "tag": "#",
+        "color": "white",
+        "strikethrough": false,
+        "underline": true,
+        "backgroundColor": "transparent",
+        "bold": false,
+        "italic": false
+      },
+      {
+        "tag": "^",
+        "color": "#FF8C00",
+        "strikethrough": false,
+        "underline": false,
+        "backgroundColor": "transparent",
+        "bold": false,
+        "italic": false
+      },
+      {
+        "tag": "*",
+        "color": "#98C379",
+        "strikethrough": false,
+        "underline": false,
+        "backgroundColor": "transparent",
+        "bold": false,
+        "italic": false
+      }
+    ],
+
+    //  ************** Terminal **************
+    "terminal.integrated.cwd": "",
+    "terminal.integrated.scrollback": 10000000000000,
+    "terminal.integrated.fontSize": 12,
+    "terminal.integrated.lineHeight": 0.5,
+    "terminal.integrated.enableBell": true,
+    "terminal.integrated.fontFamily": "Dank Mono, Monaco",
+    "terminal.integrated.persistentSessionReviveProcess": "never",
+    "terminal.integrated.shellIntegration.enabled": false,
+    "terminal.integrated.profiles.osx": {
+      "WorkSpace": {
+        "path": "zsh",
+        "icon": "workspace-trusted",
+        "color": "terminal.ansiWhite"
+      }
+    },
+
+    //  ************** Terminals **************
+    "terminals.invertCommandsAndDescription": false, // Invert a terminal commands and description in the quickpick
+    "terminals.showCommands": true, // Show terminals' commands in the quickpick
+    "terminals.showDescriptions": true, // Show terminals' descriptions in the quickpick
+    "terminals.sortTerminals": false, // Sort terminals alphabetically
+    "terminals.env": {
+      "github_access_token": "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",
+      "CIRCLE_TOKEN": "ee359ad048fcd4d85b2dd084039a4aa702bf2297",
+      "env": "houzz3",
+      // "isJukwaaPulled": "false",
+    }, // Global environment variables that will be applied to all terminals>
+    "terminals.multiplexer": "screen", // The terminal multiplexer to use for persistent terminals, supported values are: "screen", "tmux"
+    "terminals.autokill": true,
+    "terminals.autorun": false,
+    "terminals.terminals": [
+      {
+        "name": "Infra",
+        "description": "Infra start",
+        "open": true,
+        "icon": "vm",
+        "color": "terminal.ansiCyan",
+        "focus": false,
+        "execute": true,
+        "onlySingle": false,
+        "cwd": "/Users/jacobsonhouzz/Houzz/HouzzWorkSpace/ivy-dev-infra",
+        "commands": [
+          "tput rmam",
+          "open -a AppGate",
+          "echo $(aws ecr get-login-password --region=us-west-2)|docker login --password-stdin --username AWS 754384638740.dkr.ecr.us-west-2.amazonaws.com",
+          "if (! docker stats --no-stream ); then open -a Docker ; while (! docker stats --no-stream ); do echo 'Waiting for Docker to launch...' ; sleep 1 ; done ; fi ; docker stats",
+          "make infra"
+        ]
+      },
+      {
+        "name": "Jukwaa",
+        "split": "Infra",
+        "description": "Jukwaa start",
+        "open": true,
+        // "icon": "remote",kw
+        "icon": "ruby",
+        "color": "terminal.ansiBlue",
+        "focus": false,
+        "execute": true,
+        "onlySingle": false,
+        "cwd": "/Users/jacobsonhouzz/Houzz/HouzzWorkSpace/ivy-dev-infra",
+        "commands": [
+          // "tput rmam",
+          // "make jukwaa-remote-be env=houzz3",
+          "echo 'true' > /Users/jacobsonhouzz/Houzz/HouzzWorkSpace/isJukwaaUp.txt",
+        ]
+      },
+      {
+        "name": "Documents",
+        "description": "Documents start",
+        "open": true,
+        "icon": "file",
+        "color": "terminal.ansiGreen",
+        "focus": true,
+        "execute": true,
+        "onlySingle": false,
+        "cwd": "/Users/jacobsonhouzz/Houzz/HouzzWorkSpace/ivy-documents",
+        // "persistent": "Documents",
+        "commands": [
+          //   "tput rmam",
+          "sleep 1",
+          "while [[ $(head -n 1 /Users/jacobsonhouzz/Houzz/HouzzWorkSpace/isJukwaaUp.txt) == 'false' ]]; do echo 'JUKWAA STARTING'; sleep 1; done",
+          "env=$(head -n 1 /Users/jacobsonhouzz/Houzz/HouzzWorkSpace/env.txt)",
+          // "while [ "$(head -n 1 /Users/jacobsonhouzz/Houzz/HouzzWorkSpace/isJukwaaUp.txt)" = "false" ]; do echo 'jukwaa waking'; sleep 1; done",
+          "if (! docker stats --no-stream ); then open -a Docker ; while (! docker exec -it ivy-documents-${env} bash --no-stream ); do echo 'Waiting for Docker to launch...' ; sleep 1 ; done ; fi ; docker exec -it ivy-documents-${env} bash",
+          // "ln -s /node_modules node_modules",
+          "./link-packages.sh",
+          "npm run build-vendor",
+          "npm run server-debug"
+        ]
+      },
+      {
+        "name": "DWatch",
+        "split": "Documents",
+        "description": "Documents Watch",
+        "open": true,
+        "icon": "flame",
+        "color": "terminal.ansiYellow",
+        "focus": false,
+        "execute": true,
+        "onlySingle": false,
+        "cwd": "/Users/jacobsonhouzz/Houzz/HouzzWorkSpace/ivy-documents",
+        "commands": [
+          //   "tput rmam",
+          "sleep 1",
+          "while [[ $(head -n 1 /Users/jacobsonhouzz/Houzz/HouzzWorkSpace/isJukwaaUp.txt) == 'false' ]]; do echo 'JUKWAA STARTING'; sleep 1; done",
+          "env=$(head -n 1 /Users/jacobsonhouzz/Houzz/HouzzWorkSpace/env.txt)",
+          "if (! docker stats --no-stream ); then open -a Docker ; while (! docker exec -it ivy-documents-${env} bash --no-stream ); do echo 'Waiting for Docker to launch...' ; sleep 1 ; done ; fi ; docker exec -it ivy-documents-${env} bash",
+          "npm run build-apps -- -w -a 'documents'"
+        ]
+        
+      },
+      {
+        "name": "Projects",
+        "description": "Projects start",
+        "open": true,
+        "icon": "project",
+        "color": "terminal.ansiGreen",
+        "focus": true,
+        "execute": false,
+        "onlySingle": true,
+        "cwd": "/Users/jacobsonhouzz/Houzz/HouzzWorkSpace/ivy-projects",
+        "commands": [
+          //   "tput rmam",
+          "sleep 1",
+          "while [[ $(head -n 1 /Users/jacobsonhouzz/Houzz/HouzzWorkSpace/isJukwaaUp.txt) == 'false' ]]; do echo 'JUKWAA STARTING'; sleep 1; done",
+          "env=$(head -n 1 /Users/jacobsonhouzz/Houzz/HouzzWorkSpace/env.txt)",
+          "if (! docker stats --no-stream ); then open -a Docker ; while (! docker exec -it ivy-projects-${env} bash --no-stream ); do echo 'Waiting for Docker to launch...' ; sleep 1 ; done ; fi ; docker exec -it ivy-projects-${env} bash",
+          // "ln -s /node_modules node_modules",
+          "./link-packages.sh",
+          "npm run build-vendor",
+          "npm run server-debug"
+        ]
+      },
+      {
+        "name": "PWatch",
+        "split": "Projects",
+        "description": "Projects Watch",
+        "open": true,
+        "icon": "flame",
+        "color": "terminal.ansiYellow",
+        "focus": false,
+        "execute": false,
+        "onlySingle": true,
+        "cwd": "/Users/jacobsonhouzz/Houzz/HouzzWorkSpace/ivy-projects",
+        "commands": [
+          // "tput rmam",
+          "sleep 1",
+          "while [[ $(head -n 1 /Users/jacobsonhouzz/Houzz/HouzzWorkSpace/isJukwaaUp.txt) == 'false' ]]; do echo 'JUKWAA STARTING'; sleep 1; done",
+          "env=$(head -n 1 /Users/jacobsonhouzz/Houzz/HouzzWorkSpace/env.txt)",
+          "if (! docker stats --no-stream ); then open -a Docker ; while (! docker exec -it ivy-projects-${env} bash --no-stream ); do echo 'Waiting for Docker to launch...' ; sleep 1 ; done ; fi ; docker exec -it ivy-projects-${env} bash",
+          "npm run build-apps -- -w -a 'projects'"
+        ]
+      },
+      {
+        "name": "Core",
+        "description": "Core start",
+        "open": true,
+        "icon": "pulse",
+        "color": "terminal.ansiRed",
+        "focus": false,
+        "execute": true,
+        "onlySingle": false,
+        "cwd": "/Users/jacobsonhouzz/Houzz/HouzzWorkSpace/ivy-core",
+        "commands": [
+          // "tput rmam",
+          "git pull",
+          "npm run build-watch",
+          "npm run build-watch",
+          "npm run build-watch"
+        ]
+      },
+      {
+        "name": "Shared",
+        "split": "Core",
+        "description": "Shared start",
+        "open": true,
+        "icon": "link",
+        "color": "terminal.ansiMagenta",
+        "focus": false,
+        "execute": true,
+        "onlySingle": false,
+        "cwd": "/Users/jacobsonhouzz/Houzz/HouzzWorkSpace/ivy-shared-components",
+        "commands": [
+          // "tput rmam",
+          "git pull",
+          "npm run build-watch",
+          "npm run build-watch",
+          "npm run build-watch"
+        ]
+      },
+      {
+        "name": "Utils",
+        "split": "Shared",
+        "description": "Utils start",
+        "open": false,
+        "icon": "tools",
+        "color": "terminal.ansiWhite",
+        "focus": false,
+        "execute": true,
+        "onlySingle": true,
+        "cwd": "/Users/jacobsonhouzz/Houzz/HouzzWorkSpace/ivy-utils",
+        "commands": [
+          // "tput rmam",
+          "git pull",
+          "npm run build-watch",
+          "npm run build-watch",
+          "npm run build-watch"
+        ]
+      },
+      {
+        "name": "Routing",
+        "split": "Shared",
+        "description": "Routing start",
+        "open": true,
+        "icon": "github-action",
+        "color": "terminal.ansiGreen",
+        "focus": false,
+        "execute": true,
+        "onlySingle": false,
+        "cwd": "/Users/jacobsonhouzz/Houzz/HouzzWorkSpace/routing-atlas",
+        "commands": [
+          // "tput rmam",
+          "git pull",
+          "npm run build-watch",
+          // "npm run build",
+          // "npm run build"
+        ]
+      },
+      {
+        "name": "Graph",
+        "description": "Graph start",
+        "open": true,
+        "icon": "graph",
+        "color": "terminal.ansiCyan",
+        "focus": false,
+        "execute": false,
+        "onlySingle": false,
+        "cwd": "/Users/jacobsonhouzz/Houzz/HouzzWorkSpace/ivy-dev-infra",
+        "commands": [
+          // "tput rmam",
+          "make graph-local"
+        ]
+      },
+      {
+        "name": "Services",
+        "split": "Graph",
+        "description": "Services start",
+        "open": true,
+        "icon": "server",
+        "color": "terminal.ansiBlue",
+        "focus": true,
+        "execute": false,
+        "onlySingle": false,
+        "cwd": "/Users/jacobsonhouzz/Houzz/HouzzWorkSpace/ivy-dev-infra",
+        "commands": [
+          // "tput rmam",
+          "make services-test",
+          // "docker exec -it ivy-services bash",
+          // "npm run test-ivy-debug-watch"
+          // "npm run server-test-debug"
+          // "npm run test-ivy-only"
+        ]
+      },
+      {
+        "name": "Login",
+        "description": "Login",
+        "open": true,
+        "icon": "log-in",
+        "color": "terminal.ansiBlue",
+        "focus": true,
+        "execute": true,
+        "onlySingle": true,
+        "cwd": "/Users/jacobsonhouzz/Houzz/HouzzWorkSpace/ivy-dev-infra",
+        "commands": [
+          "echo $(aws ecr get-login-password --region=us-west-2)|docker login --password-stdin --username AWS 754384638740.dkr.ecr.us-west-2.amazonaws.com",
+          "echo $(aws ecr get-login-password --region=us-west-2)|docker login --password-stdin --username AWS 754384638740.dkr.ecr.us-west-2.amazonaws.com",
+          "echo $(aws ecr get-login-password --region=us-west-2)|docker login --password-stdin --username AWS 754384638740.dkr.ecr.us-west-2.amazonaws.com",
+          "exit 0",
+        ]
+      },
+      {
+        "name": "Rails",
+        "description": "Rails start",
+        "open": true,
+        "icon": "azure",
+        "color": "terminal.ansiMagenta",
+        "focus": false,
+        "execute": false,
+        "onlySingle": true,
+        "cwd": "/Users/jacobsonhouzz/Houzz/HouzzWorkSpace/ivy-rails",
+        "commands": [
+          // "tput rmam",
+          "make up",
+          "docker exec -it ivy_website bash",
+          "bin/rake db:setup",
+          "bin/rails generate migration",
+          "bin/rake db:migrate"
+        ]
+      },
+      {
+        "name": "Update-Package",
+        "description": "Update CircleCi Package",
+        "open": true,
+        "icon": "fold-up",
+        "color": "terminal.ansiBlack",
+        "focus": true,
+        "execute": true,
+        "onlySingle": true,
+        "cwd": "/Users/jacobsonhouzz/Houzz/HouzzWorkSpace/ivy-documents",
+        "commands": [
+          //   "tput rmam",
+          "./.circleci/update-package.sh",
+          "exit 0"
+        ]
+      },
+      {
+        "name": "Services-Circular",
+        "description": "Searching for Circular Dependencies inside Services",
+        "open": true,
+        "icon": "sync",
+        "color": "terminal.ansiBlack",
+        "focus": true,
+        "execute": true,
+        "onlySingle": true,
+        "onlyAPI": true,
+        "cwd": "/Users/jacobsonhouzz/Houzz/HouzzWorkSpace/ivy-documents",
+        "commands": [
+          //   "tput rmam",
+          "dpdm ./src/index.ts"
+        ]
+      },
+      {
+        "name": "Email Editor",
+        "description": "Email editor start",
+        "open": true,
+        "icon": "mail",
+        "color": "terminal.ansiGreen",
+        "focus": true,
+        "execute": true,
+        "onlySingle": true,
+        "onlyAPI": true,
+        "cwd": "/Users/jacobsonhouzz/Houzz/HouzzWorkSpace/ivy-email-editor",
+        "commands": ["npm start"]
+      },
+      {
+        "name": "Docker-Prune",
+        "description": "Run docker system prune",
+        "open": true,
+        "icon": "clear-all",
+        "color": "terminal.ansiBlack",
+        "execute": true,
+        "focus": true,
+        "onlyAPI": true,
+        "cwd": "/Users/jacobsonhouzz/Houzz/HouzzWorkSpace/ivy-documents",
+        "commands": [
+          // "tput rmam",
+          "docker system prune",
+          "y",
+          "exit 0"
+        ]
+      }
+    ],
+  },
+  "launch": {
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Tests",
+        "type": "node",
+        "request": "attach",
+        "port": 9089,
+        "continueOnAttach": true,
+        "address": "localhost",
+        "remoteRoot": "/ivy-services",
+        "sourceMaps": true,
+        "internalConsoleOptions": "neverOpen",
+        "outFiles": [
+          "${workspaceFolder}/*/.js",
+          "!*/node_modules/*",
+          "/node_modules/mocha/bin/_mocha"
+        ],
+        "skipFiles": [
+          "<node_internals>/**",
+          "${workspaceFolder}/*/.js",
+          "!*/node_modules/*",
+          "/node_modules/mocha/bin/_mocha"
+        ],
+        "cwd": "${workspaceFolder}"
+      },
+      {
+        "type": "node",
+        "request": "launch",
+        "name": "Migration",
+        "program": "${workspaceFolder}/test-migration.js",
+        "cwd": "${workspaceFolder}"
+      },
+      {
+        "name": "Graph",
+        "type": "node",
+        "request": "attach",
+        "port": 9330,
+        "address": "localhost",
+        "remoteRoot": "/ivy-graph-jukwaa",
+        "cwd": "${workspaceFolder}"
+      },
+      {
+        "name": "Node",
+        "type": "node",
+        "request": "attach",
+        "port": 9099,
+        "address": "localhost",
+        "remoteRoot": "/ivy-services",
+        "cwd": "${workspaceFolder}"
+      },
+      {
+        "name": "Email Worker",
+        "type": "node",
+        "request": "attach",
+        "port": 9098,
+        "address": "localhost",
+        "remoteRoot": "/ivy-services",
+        "cwd": "${workspaceFolder}"
+      },
+      {
+        "name": "Scripts",
+        "type": "node",
+        "request": "attach",
+        "port": 9089,
+        "address": "localhost",
+        "remoteRoot": "/ivy-services",
+        "cwd": "${workspaceFolder}"
+      },
+      {
+        "name": "Documents",
+        "type": "node",
+        "request": "attach",
+        "port": 9002,
+        "restart": true,
+        "sourceMaps": true,
+        "continueOnAttach": true,
+        "address": "0.0.0.0",
+        "remoteRoot": "/ivy-documents",
+        "localRoot": "${workspaceFolder}",
+        "internalConsoleOptions": "neverOpen",
+        "outFiles": ["${workspaceFolder}/**/*.js", "!**/node_modules/**"]
+      },
+      {
+        "name": "Projects",
+        "type": "node",
+        "request": "attach",
+        "port": 9010,
+        "restart": true,
+        "sourceMaps": true,
+        "continueOnAttach": true,
+        "address": "0.0.0.0",
+        "remoteRoot": "/ivy-projects",
+        "localRoot": "${workspaceFolder}",
+        "internalConsoleOptions": "neverOpen",
+        "outFiles": ["${workspaceFolder}/**/*.js", "!**/node_modules/**"]
+      },
+      {
+        "name": "JI",
+        "type": "node",
+        "request": "attach",
+        "port": 9004,
+        "restart": true,
+        "sourceMaps": true,
+        "continueOnAttach": true,
+        "address": "0.0.0.0",
+        "remoteRoot": "/ivy-ji",
+        "localRoot": "${workspaceFolder}",
+        "internalConsoleOptions": "neverOpen",
+        "outFiles": ["${workspaceFolder}/**/*.js", "!**/node_modules/**"]
+      },
+      {
+        "name": "Email Editor",
+        "type": "node",
+        "request": "launch",
+        "remoteRoot": "/ivy-email-editor",
+        "skipFiles": [
+            "<node_internals>/**"
+        ],
+        "program": "${workspaceFolder}/src/server/publish.js"
+      },
+    ]
+  },
+  "snippets": {
+    "Print to console": {
+      "prefix": "lll",
+      "body": ["console.log('Jacobson Log: ', ${1:label});", ""],
+      "description": "Jacobson Console Log"
+    },
+    "Dir to console": {
+      "prefix": "ddd",
+      "body": ["console.dir('Jacobson Log: ', ${1:label});", ""],
+      "description": "Jacobson Console Dir"
+    },
+    "Assert to console": {
+      "prefix": "aaa",
+      "body": ["console.assert('', ${2:label});"],
+      "description": "Jacobson Console Assert"
+    }
+  }
+}
