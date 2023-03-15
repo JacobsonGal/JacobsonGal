@@ -5,7 +5,7 @@
 ### 👨🏻‍💻 &nbsp;About Me
 
 🖥 &nbsp;Currently working as a full stack engineer at [Houzz Pro](https://pro.houzz.com/).\
-🎓 &nbsp;BSc | Computer Science @ [College of Management Academic Studis](https://moodle.colman.ac.il/my/).\
+🎓 &nbsp;BS | Computer Science @ [College of Management Academic Studis](https://moodle.colman.ac.il/my/).\
 🎓 &nbsp;MBA | Entrepreneurship @ [College of Management Academic Studis](https://moodle.colman.ac.il/my/).\
 🌐 &nbsp;Love to explore new technologies and develop software solutions and quick hacks.
 
