@@ -8,9 +8,7 @@
 🎓 &nbsp;BS @ Computer Science & MBA @ Entrepreneurship from [College of Management Academic Studis](https://www.colman.ac.il/).\
 🌐 &nbsp;Love to explore new technologies and develop software solutions and quick hacks.
 
-<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
-  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-</a>
+<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
 ### 🛠 &nbsp;Tech Stack
 
 ![Python](https://img.shields.io/badge/-Python-05122A?style=flat&logo=python)&nbsp;
