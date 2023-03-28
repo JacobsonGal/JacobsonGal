@@ -36,17 +36,13 @@
   <a href="https://github.com/JacobsonGal?tab=repositories">
     <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=JacobsonGal&show_icons=true&theme=algolia&include_all_commits=true&count_private=true&show_icons=true"/>
     <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=JacobsonGal&layout=compact&show_icons=true&langs_count=8&theme=algolia"/>
-</a>
-<!-- </p> -->
-<!-- <p align="center"> -->
-  <a href="https://github.com/JacobsonGal?tab=repositories">
+<!-- </a> -->
+<!--   <a href="https://github.com/JacobsonGal?tab=repositories"> -->
     <img width="2000px" height="315px" src="https://github-readme-streak-stats.herokuapp.com/?user=JacobsonGal&theme=algolia&background=050F3C&date_format=M%20j%5B%2C%20Y%5D"/>
 </a>
 </p>
-  
 <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
 ### 🤝🏻 &nbsp;Connect with Me
-
 <p align="center">
 <a href="https://www.linkedin.com/in/jacobsongal/"><img src="https://img.shields.io/badge/-Linkedin-0077B5?style=flat&logo=Linkedin&logoColor=white"/></a>
 <a href="https://twitter.com/JacobsonGal"><img src="https://img.shields.io/badge/-Twitter-00acee?style=flat&logo=Twitter&logoColor=white"/></a>
