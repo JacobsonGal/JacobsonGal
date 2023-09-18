@@ -55,7 +55,7 @@
 </p>
 
 
- <iframe src="https://www.jacobsongal.pro" title="PortFolio"></iframe>
+[![PortFolio](https://avatars.githubusercontent.com/u/49816567?s=96&v=4)](https://www.jacobsongal.pro)
 
 <!-- <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a> -->
 
