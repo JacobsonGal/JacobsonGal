@@ -54,9 +54,12 @@
 </a>
 </p>
 
-<h1 align="center">Portfolio</h1>
-[https://github.com/JacobsonGal/JacobsonGal/assets/58512829/049d030b-9eca-4de6-a647-0dc186b413b2](https://www.jacobsongal.pro)
-
+<p align="center">
+ <h1 align="center">Portfolio</h1>
+  <a href="[https://github.com/JacobsonGal?tab=repositories](https://www.jacobsongal.pro)">
+    <img height="180em" src="https://github.com/JacobsonGal/JacobsonGal/assets/58512829/049d030b-9eca-4de6-a647-0dc186b413b2"/>
+</a>
+</p>
 <!-- <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a> -->
 
 
