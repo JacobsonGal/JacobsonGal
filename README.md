@@ -55,7 +55,7 @@
 </p>
 
 <h1 align="center">Portfolio</h1>
-[<img width="2290" alt="Screenshot 2023-09-19 at 2 19 46" src="https://github.com/JacobsonGal/JacobsonGal/assets/58512829/049d030b-9eca-4de6-a647-0dc186b413b2">](https://www.jacobsongal.pro/)
+[![Portfolio](https://github.com/JacobsonGal/JacobsonGal/assets/58512829/049d030b-9eca-4de6-a647-0dc186b413b2)](https://www.jacobsongal.pro)
 
 <!-- <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a> -->
 
