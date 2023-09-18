@@ -17,7 +17,6 @@
 <a href="mailto:jacobsongal@gmail.com"><img src="https://img.shields.io/badge/-Mail-D14836?style=flat&logo=Gmail&logoColor=white"/></a>
 <a href="https://www.facebook.com/JacobsonGal"><img src="https://img.shields.io/badge/-Facebook-1877F2?style=flat&logo=Facebook&logoColor=white"/></a>
 <a href="https://www.instagram.com/jacobsongal"><img src="https://img.shields.io/badge/-Instgram-E4405F?style=flat&logo=Instagram&logoColor=white"/></a>
-<a href="https://www.jacobsongal.pro/"><img src="https://img.shields.io/badge/Website?style=flat&logo=website&logoColor=white"/></a>
  </p>
  
  <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
