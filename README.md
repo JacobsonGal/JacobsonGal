@@ -1,10 +1,6 @@
 <h1 align="center">Gal Jacobson</h1>
 <h3 align="center">Software Engineer @ Houzz</h3>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=JacobsonGal&color=7dd3fc&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile views" />
-</p>
-
 ### 🌐 Portfolio
 
 <p align="center">
