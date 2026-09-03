@@ -53,10 +53,6 @@
 </p>
 
 <p align="center">
-  <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=JacobsonGal&theme=tokyonight&utcOffset=2" alt="Productive time" />
-</p>
-
-<p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./dist/github-contribution-grid-snake-dark.svg" />
     <img width="100%" src="./dist/github-contribution-grid-snake.svg" alt="Contribution snake" />
