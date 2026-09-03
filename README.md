@@ -39,8 +39,8 @@
 ### ⚙️ &nbsp;GitHub Analytics
 
 <p align="center">
-  <img width="49.5%" height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=JacobsonGal&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true" alt="GitHub stats" />
-  <img width="49.5%" height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=JacobsonGal&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="Top languages" />
+  <img width="49.5%" height="195" src="https://github-readme-stats-eight-theta.vercel.app/api?username=JacobsonGal&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&card_width=600" alt="GitHub stats" />
+  <img width="49.5%" height="195" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=JacobsonGal&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&card_width=600" alt="Top languages" />
 </p>
 
 <p align="center">
