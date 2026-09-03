@@ -36,14 +36,14 @@
 ### ⚙️ &nbsp;GitHub Analytics
 
 <p align="center">
-  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=JacobsonGal&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true" alt="GitHub stats" />
-  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=JacobsonGal&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="Top languages" />
+  <img width="49.5%" height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=JacobsonGal&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true" alt="GitHub stats" />
+  <img width="49.5%" height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=JacobsonGal&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="Top languages" />
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=JacobsonGal&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" alt="GitHub streak" />
+  <img width="100%" src="https://streak-stats.demolab.com/?user=JacobsonGal&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&card_width=1200" alt="GitHub streak" />
 </p>
 
 <p align="center">
-  <img src="https://jeskei-readme-activity-graph.vercel.app/graph?username=JacobsonGal&theme=tokyo-night&hide_border=true&area=true&custom_title=Contributions%20(personal%20%2B%20Houzz)" alt="Contribution activity" />
+  <img width="100%" src="https://jeskei-readme-activity-graph.vercel.app/graph?username=JacobsonGal&theme=tokyo-night&hide_border=true&area=true&custom_title=Contributions%20(personal%20%2B%20Houzz)" alt="Contribution activity" />
 </p>
