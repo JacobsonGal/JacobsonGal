@@ -48,10 +48,6 @@
 </p>
 
 <p align="center">
-  <img width="100%" src="https://github-profile-trophy-ten.vercel.app/?username=JacobsonGal&theme=tokyonight&no-frame=true&column=4&margin-w=8&margin-h=8" alt="GitHub trophies" />
-</p>
-
-<p align="center">
   <img width="49.5%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=JacobsonGal&theme=tokyonight" alt="Repos per language" />
   <img width="49.5%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=JacobsonGal&theme=tokyonight" alt="Most commit language" />
 </p>
