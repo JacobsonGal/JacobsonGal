@@ -19,18 +19,23 @@ jobs:
       - name: Capture jacobsongal.github.io
         uses: browser-actions/setup-playwright@v1
 
-      - name: Save preview image
+      - name: Save preview images
         run: |
           mkdir -p assets
           npx playwright screenshot https://jacobsongal.github.io/ assets/portfolio-preview.png \
             --viewport-size=1600,1000 \
+            --color-scheme=light \
+            --wait-for-timeout=4000
+          npx playwright screenshot https://jacobsongal.github.io/ assets/portfolio-preview-dark.png \
+            --viewport-size=1600,1000 \
+            --color-scheme=dark \
             --wait-for-timeout=4000
 
       - name: Commit preview
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/portfolio-preview.png
+          git add assets/portfolio-preview.png assets/portfolio-preview-dark.png
           if git diff --staged --quiet; then
             echo "Portfolio preview unchanged"
           else

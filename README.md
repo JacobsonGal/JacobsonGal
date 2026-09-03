@@ -1,6 +1,9 @@
 <div align="center">
   <a href="https://jacobsongal.github.io/">
-    <img src="./assets/portfolio-preview.png" alt="Gal Jacobson portfolio — open jacobsongal.github.io" width="100%" style="width: 100%; max-width: 100%;" />
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/portfolio-preview-dark.png" />
+      <img src="./assets/portfolio-preview.png" alt="Gal Jacobson portfolio — open jacobsongal.github.io" width="100%" style="width: 100%; max-width: 100%;" />
+    </picture>
   </a>
 </div>
 
