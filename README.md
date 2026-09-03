@@ -1,16 +1,9 @@
 <h1 align="center">Gal Jacobson</h1>
-<h3 align="center">Software Engineer @ Houzz</h3>
-
-### 🌐 Portfolio
 
 <p align="center">
   <a href="https://jacobsongal.github.io/">
     <img src="./assets/portfolio-preview.png" alt="Gal Jacobson portfolio — open jacobsongal.github.io" width="100%" />
   </a>
-</p>
-
-<p align="center">
-  <a href="https://jacobsongal.github.io/"><img src="https://img.shields.io/badge/Open_portfolio-jacobsongal.github.io-0f172a?style=for-the-badge&logo=githubpages&logoColor=white" alt="Open portfolio" /></a>
 </p>
 
 ### 🛠 &nbsp;Tech Stack
