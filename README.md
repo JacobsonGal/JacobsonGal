@@ -48,11 +48,6 @@
 </p>
 
 <p align="center">
-  <img width="49.5%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=JacobsonGal&theme=tokyonight" alt="Repos per language" />
-  <img width="49.5%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=JacobsonGal&theme=tokyonight" alt="Most commit language" />
-</p>
-
-<p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./dist/github-contribution-grid-snake-dark.svg" />
     <img width="100%" src="./dist/github-contribution-grid-snake.svg" alt="Contribution snake" />
