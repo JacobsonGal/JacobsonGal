@@ -1,10 +1,10 @@
 <h1 align="center">Gal Jacobson</h1>
 
-<p align="center">
+<div align="center">
   <a href="https://jacobsongal.github.io/">
-    <img src="./assets/portfolio-preview.png" alt="Gal Jacobson portfolio — open jacobsongal.github.io" width="100%" />
+    <img src="./assets/portfolio-preview.png" alt="Gal Jacobson portfolio — open jacobsongal.github.io" width="100%" style="width: 100%; max-width: 100%;" />
   </a>
-</p>
+</div>
 
 ### 🛠 &nbsp;Tech Stack
 

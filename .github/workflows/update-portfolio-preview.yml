@@ -23,7 +23,7 @@ jobs:
         run: |
           mkdir -p assets
           npx playwright screenshot https://jacobsongal.github.io/ assets/portfolio-preview.png \
-            --viewport-size=1280,720 \
+            --viewport-size=1600,1000 \
             --wait-for-timeout=4000
 
       - name: Commit preview
