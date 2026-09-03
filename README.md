@@ -53,8 +53,7 @@
 </p>
 
 <p align="center">
-  <img width="49.5%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=JacobsonGal&theme=tokyonight&utcOffset=2" alt="Productive time" />
-  <img width="49.5%" src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=JacobsonGal&repo=JacobsonGal.github.io&theme=tokyonight&hide_border=true" alt="Pinned portfolio repo" />
+  <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=JacobsonGal&theme=tokyonight&utcOffset=2" alt="Productive time" />
 </p>
 
 <p align="center">
