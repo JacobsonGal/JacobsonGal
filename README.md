@@ -38,10 +38,16 @@
 
 ### ⚙️ &nbsp;GitHub Analytics
 
-<p align="center">
-  <img width="49.5%" height="195" src="https://github-readme-stats-eight-theta.vercel.app/api?username=JacobsonGal&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&card_width=600" alt="GitHub stats" />
-  <img width="49.5%" height="195" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=JacobsonGal&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&card_width=600" alt="Top languages" />
-</p>
+<table align="center" width="99%" cellspacing="4" cellpadding="0">
+  <tr>
+    <td width="50%" align="center" valign="top">
+      <img width="100%" height="195" style="height:195px; object-fit:fill;" src="https://github-readme-stats-eight-theta.vercel.app/api?username=JacobsonGal&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true" alt="GitHub stats" />
+    </td>
+    <td width="50%" align="center" valign="top">
+      <img width="100%" height="195" style="height:195px; object-fit:fill;" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=JacobsonGal&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&card_width=594" alt="Top languages" />
+    </td>
+  </tr>
+</table>
 
 <p align="center">
   <img width="100%" src="https://streak-stats.demolab.com/?user=JacobsonGal&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&card_width=1200" alt="GitHub streak" />
