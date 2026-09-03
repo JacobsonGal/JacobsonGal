@@ -10,21 +10,21 @@
 ### 🛠 &nbsp;Tech Stack
 
 <!-- Mirrors top languages from GitHub Analytics -->
-![JavaScript](https://img.shields.io/badge/-JavaScript-05122A?style=flat&logo=javascript)&nbsp;
-![Java](https://img.shields.io/badge/-Java-05122A?style=flat&logo=openjdk&logoColor=ED8B00)&nbsp;
-![HTML](https://img.shields.io/badge/-HTML-05122A?style=flat&logo=html5)&nbsp;
-![CSS](https://img.shields.io/badge/-CSS-05122A?style=flat&logo=css3&logoColor=1572B6)&nbsp;
-![C#](https://img.shields.io/badge/-C%23-05122A?style=flat&logo=csharp&logoColor=512BD4)
-
-![SCSS](https://img.shields.io/badge/-SCSS-05122A?style=flat&logo=sass&logoColor=CC6699)&nbsp;
-![Python](https://img.shields.io/badge/-Python-05122A?style=flat&logo=python)&nbsp;
-![Shell](https://img.shields.io/badge/-Shell-05122A?style=flat&logo=gnubash&logoColor=4EAA25)&nbsp;
-![React](https://img.shields.io/badge/-React-05122A?style=flat&logo=react)&nbsp;
-![Node.js](https://img.shields.io/badge/-Node.js-05122A?style=flat&logo=node.js)
-
-![Git](https://img.shields.io/badge/-Git-05122A?style=flat&logo=git)&nbsp;
-![GitHub](https://img.shields.io/badge/-GitHub-05122A?style=flat&logo=github)&nbsp;
-![Visual Studio Code](https://img.shields.io/badge/-VS%20Code-05122A?style=flat&logo=visualstudiocode&logoColor=007ACC)
+<p align="center">
+  <img height="26" src="https://img.shields.io/badge/-JavaScript-05122A?style=flat&logo=javascript" alt="JavaScript" />
+  <img height="26" src="https://img.shields.io/badge/-Java-05122A?style=flat&logo=openjdk&logoColor=ED8B00" alt="Java" />
+  <img height="26" src="https://img.shields.io/badge/-HTML-05122A?style=flat&logo=html5" alt="HTML" />
+  <img height="26" src="https://img.shields.io/badge/-CSS-05122A?style=flat&logo=css3&logoColor=1572B6" alt="CSS" />
+  <img height="26" src="https://img.shields.io/badge/-C%23-05122A?style=flat&logo=csharp&logoColor=512BD4" alt="C#" />
+  <img height="26" src="https://img.shields.io/badge/-SCSS-05122A?style=flat&logo=sass&logoColor=CC6699" alt="SCSS" />
+  <img height="26" src="https://img.shields.io/badge/-Python-05122A?style=flat&logo=python" alt="Python" />
+  <img height="26" src="https://img.shields.io/badge/-Shell-05122A?style=flat&logo=gnubash&logoColor=4EAA25" alt="Shell" />
+  <img height="26" src="https://img.shields.io/badge/-React-05122A?style=flat&logo=react" alt="React" />
+  <img height="26" src="https://img.shields.io/badge/-Node.js-05122A?style=flat&logo=node.js" alt="Node.js" />
+  <img height="26" src="https://img.shields.io/badge/-Git-05122A?style=flat&logo=git" alt="Git" />
+  <img height="26" src="https://img.shields.io/badge/-GitHub-05122A?style=flat&logo=github" alt="GitHub" />
+  <img height="26" src="https://img.shields.io/badge/-VS%20Code-05122A?style=flat&logo=visualstudiocode&logoColor=007ACC" alt="Visual Studio Code" />
+</p>
 
 ### ⚙️ &nbsp;GitHub Analytics
 
