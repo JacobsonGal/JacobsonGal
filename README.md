@@ -1,6 +1,20 @@
 <h1 align="center">Gal Jacobson</h1>
 <h3 align="center">Software Engineer @ Houzz </h3>
 
+### 🌐 Portfolio
+
+GitHub profile READMEs cannot embed a live iframe, so this preview is refreshed from **[jacobsongal.github.io](https://jacobsongal.github.io/)**. Click the image to open the site.
+
+<p align="center">
+  <a href="https://jacobsongal.github.io/">
+    <img src="./assets/portfolio-preview.png" alt="Gal Jacobson portfolio — open jacobsongal.github.io" width="100%" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://jacobsongal.github.io/"><img src="https://img.shields.io/badge/Open_portfolio-jacobsongal.github.io-0f172a?style=for-the-badge&logo=githubpages&logoColor=white" alt="Open portfolio" /></a>
+</p>
+
 <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
 ### 👨🏻‍💻 &nbsp;About Me
 
