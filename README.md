@@ -54,12 +54,12 @@
 </p>
 
 <p align="center">
+  <img width="100%" src="https://jeskei-readme-activity-graph.vercel.app/graph?username=JacobsonGal&theme=tokyo-night&hide_border=true&area=true&custom_title=Contributions%20(personal%20%2B%20Houzz)" alt="Contribution activity" />
+</p>
+
+<p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./dist/github-contribution-grid-snake-dark.svg" />
     <img width="100%" src="./dist/github-contribution-grid-snake.svg" alt="Contribution snake" />
   </picture>
-</p>
-
-<p align="center">
-  <img width="100%" src="https://jeskei-readme-activity-graph.vercel.app/graph?username=JacobsonGal&theme=tokyo-night&hide_border=true&area=true&custom_title=Contributions%20(personal%20%2B%20Houzz)" alt="Contribution activity" />
 </p>
