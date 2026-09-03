@@ -1,5 +1,3 @@
-<h1 align="center">Gal Jacobson</h1>
-
 <div align="center">
   <a href="https://jacobsongal.github.io/">
     <img src="./assets/portfolio-preview.png" alt="Gal Jacobson portfolio — open jacobsongal.github.io" width="100%" style="width: 100%; max-width: 100%;" />
